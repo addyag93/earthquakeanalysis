@@ -1,0 +1,28 @@
+Package: earthquakeanalysis
+Type: Package
+Title: NOAA Significant Earthquake data cleaning, timelining, and interactive
+    leaflet mapping
+Version: 0.1.0
+Author: Aditya Gupta
+Maintainer: The package maintainer email is <aditya.mcs.du.2014@gmail.com>
+Description: This is a small package for cleaning, timelining,
+    and mapping NOAA Significant Earthquake data. It was built
+    to satisfy requirements for the Capstone project for the Coursera
+    Mastering Software Development in R five-course specialization.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Suggests:
+    lubridate (>= 1.6.0),
+    knitr (>= 1.15.1),
+    readr (>= 1.1.0),
+    rmarkdown (>= 1.4),
+    testthat (>= 1.0.2),
+Imports:
+    dplyr (>= 0.5),
+    ggplot2 (>= 2.2.1),
+    leaflet (>= 1.1.0),
+    purrr (>= 0.2.2),
+    stringr (>= 1.2.0)
+RoxygenNote: 5.0.1
+VignetteBuilder: knitr
