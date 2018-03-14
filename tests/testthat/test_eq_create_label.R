@@ -10,5 +10,5 @@ test_that('popup labels create correctly', {
     dplyr::mutate(popup_text = eq_create_label(.))
   
   expect_is(eq_data$popup_text, 'character')
-  expect_equal(cols_eq, ncol(qs) - 1)
+  expect_equal(cols_eq, ncol(eq_data) - 1)
 })
