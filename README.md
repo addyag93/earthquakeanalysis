@@ -1,3 +1,5 @@
+[![Travis-CI Build Status](https://travis-ci.org/addyag93/earthquakeanalysis.svg?branch=master)](https://travis-ci.org/addyag93/earthquakeanalysis)
+
 # earthquakeanalysis
 This is R package developed as the part of Capstone Project for Specicalization: Mastering Software Development in R on Coursera.
 
