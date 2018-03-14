@@ -62,7 +62,8 @@ earthquakes \%>\%
   geom_timeline_label(aes(x = DATE, y = COUNTRY, magnitude = EQ_PRIMARY,
                          label = LOCATION_NAME, n_max = 5)) +
   scale_size_continuous(name = 'Richter scale value') +
-  scale_color_continuous(name = 'Deaths') 
+  scale_color_continuous(name = 'Deaths') +
+  theme_eq()
   
 }
 
